@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Latihan Penggunaan Lain Dari Position</title>
+	<style type="text/css">
+		body {
+			height: 2000px;
+		}
+		.kotak {
+			/*Cara 1 - Untuk membuat tinggi elemen*/
+			/*height: 50px;*/
+
+			/*Cara 1 - Untuk membuat element sepanjang window browser*/
+			/*width: 100%;*/
+
+			background-color: black;
+			position: fixed;
+
+			/*top,left,bottom,right hanya bisa digunakan ketika position non static*/
+			/*Cara 2 - Untuk membuat tinggi elemen tanpa height: 50px;*/
+			/*top: 0;
+			bottom: 0;*/
+
+			/*Cara 2 - Untuk membuat element sepanjang window browser tanpa width: 100%;*/
+			/*left: 0;
+			right: 0;*/
+
+			opacity: 0.7; /*Property CSS3*/
+
+			/*Untuk membuat jendela iklan*/
+			top: 100px;
+			bottom: 100px;
+			left: 100px;
+			right: 100px;
+		}
+		.close {
+			width: 30px;
+			height: 30px;
+			background-color: white;
+			border: 3px solid black;
+			border-radius: 50%; /*Property CSS3*/
+			position: absolute;
+			top: -15px;
+			right: -15px;
+
+			/*Agar font X lebih bagus*/
+			font: 18px/12px arial;
+			font-weight: bold;
+
+			/*Agar font X berada persis ditengah lingkaran*/
+			text-align: center;
+			line-height: 30px;
+		}
+
+		h1 {
+			margin-top: 50px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="kotak">
+		<div class="close"> X </div>
+	</div>
+
+	<h1>Hello World</h1>
+
+	<h2>Selamat Datang di WebProgrammingUNPAS</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</body>
+</html>

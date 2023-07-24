@@ -1,0 +1,38 @@
+.container {
+	width: 800px;
+	border: 1px solid black;
+	margin: auto;
+	padding: 5px;
+}
+
+/*Catatan kiri + tengah + kanan harus 600px / sesuai dengan width container*/
+
+.kiri {
+	width: 150px;
+	height: 500px;
+	background-color: salmon;
+	float: left;
+}
+
+.tengah {
+	width: 500px;
+	height: 500px;
+	background-color: lightskyblue;
+	float: left;
+}
+
+.kanan {
+	width: 150px;
+	height: 500px;
+	background-color: limegreen;
+	float: right;
+}
+
+/*CSS untuk div kosong*/
+.clear {
+	/*Untuk value clear: 
+	left jika float: left
+	right jika float: right
+	both jika ada float: left dan float: right*/
+	clear: both;
+}

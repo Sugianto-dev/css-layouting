@@ -1,0 +1,21 @@
+div {
+	width: 600px;
+	margin: 10px auto;
+
+	/*Box Sizing berfungsi agar width box/div tetap 600px
+	atau sesuai dengan width diatas walaupun ditambahkan
+	padding atau border pada .satu / .dua*/
+	box-sizing: border-box;
+}
+
+.satu {
+	background-color: royalblue;
+	padding: 10px;
+	border: 15px solid red;
+}
+
+.dua {
+	background-color: lightgreen;
+	padding: 30px;
+	border: 15px dashed orange;
+}

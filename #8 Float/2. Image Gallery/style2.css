@@ -1,0 +1,21 @@
+.container {
+	width: 600px;
+	border: 1px solid black;
+	margin: auto;
+	padding: 5px;
+}
+
+.kotak {
+	width: 80px;
+	height: 80px;
+	background-color: salmon;
+	color: white;
+	text-align: center;
+	/*Trik agar font di tengah antara atas & bawah*/
+	/*dengan line-height: size(sesuai height)*/
+	line-height: 80px;
+	font-size: 30px;
+	margin: 2px;
+	/*agar kotak berurutan dari kiri*/
+	float: left;
+}
